@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(169, 213, 198);
+    color: blue;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: larger;
+    color: purple;
+}

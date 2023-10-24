@@ -1,0 +1,61 @@
+body {
+	background-color: #f0f0f1;
+}
+.navbar {
+	background-color: #4d48d8;
+	color: white !important;
+	height: 80px;
+}
+.nav-link {
+	color: white;
+	font-weight: bold;
+}
+.logo {
+	width: 170px;
+}
+
+.col-lg-4{
+    padding:10px;
+}
+
+.card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 0;
+    /* width: 28rem; */
+    padding:13px;
+}
+.heading{
+    padding-left:10px;
+}
+
+.btn-primary{
+    background-color: #0073aa;
+    color: white;
+    width:110px;
+    border-radius: 3px;
+}
+
+#nav-home-tab,
+#nav-contact-tab,
+#nav-profile-tab {
+	color: #9ca4b0;
+    background-color: #f0f0f1;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid #dee2e6;
+}
+#nav-home-tab:focus,#nav-contact-tab:active,#nav-contact-tab:focus,#nav-profile-tab:focus {
+	background-color: #f0f0f1;
+    border-bottom: 2px solid #518bb4;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+	color: #518bb4;
+    
+}
+#nav-home-tab:active,
+#nav-contact-tab:active,
+#nav-profile-tab:active{
+    border-bottom: 2px solid #518bb4;
+}

@@ -1,0 +1,80 @@
+[
+	{
+		"id": 1,
+		"firstName": "Manikanta",
+		"lastName": "Kothala",
+		"star": false,
+		"professions": ["HTML & CSS", "Javascript", "React JS", "Node JS"],
+		"age": 21,
+		"birthCity": "Athili",
+		"birthCountry": "India",
+		"imageLink": "./assets/mani.jpg",
+		"description": "I am a Frontend Developer",
+		"status": "2023-03-15 00:00:00:000"
+	},
+	{
+		"id": 2,
+		"firstName": "Bharath",
+		"lastName": "Peethala",
+		"star": true,
+		"professions": ["MySQL", "Javascript", "Angular", "Node JS"],
+		"age": 22,
+		"birthCity": "Bhimavaram",
+		"birthCountry": "India",
+		"imageLink": "./assets/bharath.jpg",
+		"description": "I am Full Stack Developer",
+		"status": "Online"
+	},
+	{
+		"id": 3,
+		"firstName": "Srinivas",
+		"lastName": "Munjuluri",
+		"star": true,
+		"professions": ["MongoDB", "Python", "Node JS", "C++","React JS"],
+		"age": 22,
+		"birthCity": "Vijayawada",
+		"birthCountry": "India",
+		"imageLink": "./assets/vasu.jpg",
+		"description": "I am Backend Developer",
+		"status": "2023-03-13 00:00:00:000"
+	},
+	{
+		"id": 4,
+		"firstName": "Sai Krishna",
+		"lastName": "Yeremsetti",
+		"star": true,
+		"professions": ["Python", "Flask", "ML", "FastAPI"],
+		"age": 21,
+		"birthCity": "Vishkapatnam",
+		"birthCountry": "India",
+		"imageLink": "./assets/sai.jpeg",
+		"description": "I had a Software Developer",
+		"status": "2023-03-09 00:00:00:000"
+	},
+	{
+		"id": 5,
+		"firstName": "Chandhu",
+		"lastName": "",
+		"star": false,
+		"professions": ["AWS", "DeveOps", "Oracle", "Java"],
+		"age": 21,
+		"birthCity": "Hyderabad",
+		"birthCountry": "India",
+		"imageLink": "./assets/chandhu.jpg",
+		"description": "I am a Cloud Developer ",
+		"status": "2023-03-14 00:00:00:000"
+	},
+	{
+		"id": 6,
+		"firstName": "Hari",
+		"lastName": "Mukkala",
+		"star": true,
+		"professions": ["Linux", "CCNA", "Networks"],
+		"age": 21,
+		"birthCity": "Pune",
+		"birthCountry": "India",
+		"imageLink": "./assets/hari.jpg",
+		"description": "I am a Network Developer",
+		"status": "Online"
+	}
+]

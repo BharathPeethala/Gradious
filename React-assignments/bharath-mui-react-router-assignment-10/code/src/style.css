@@ -1,0 +1,37 @@
+* {
+	font-family: "Cinzel Decorative", cursive;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+a {
+	color: black;
+}
+
+body {
+	background-color: #eaeaea;
+	overflow: overlay;
+}
+.main {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+::-webkit-scrollbar {
+	width: 0.2rem;
+	z-index: 1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	overflow: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 10px;
+	width: 5px;
+}

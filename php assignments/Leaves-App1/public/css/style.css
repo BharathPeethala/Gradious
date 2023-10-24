@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none !important;
+}
+
+a {
+	color: black;
+}
+
+body {
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+
+.d-flex a {
+	margin-left: 4rem;
+}
+
+.login-container {
+	display: flex;
+	justify-content: center;
+}
+
+.main-container {
+	display: flex;
+}
+
+.welcome-container {
+	margin-top: 20%;
+}
+.login-form {
+	text-align: center;
+	margin-top: 5rem;
+	padding: 3rem;
+	width: 500px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.login-form .form-control {
+	margin: 1rem;
+	padding: 0.5rem;
+}
+
+.dashboards {
+	background-color: rgb(198, 198, 198);
+	height: 100%;
+	position: fixed;
+}
+
+.dynamic-content {
+	margin-left: 10rem;
+	padding: 80px;
+}
+
+.add-form {
+	padding: 2rem;
+}
+.add-update-form {
+	/* padding: 3rem; */
+	width: 24rem;
+}
+
+.add-update-form .form-control {
+	margin: 2rem;
+}
+.add-form .form-control {
+	margin: 1rem;
+}
+.add-leave-form {
+	/* padding: 5rem; */
+	width: 45rem;
+}
+.add-leave-form-div div {
+	margin: 0 2rem 1rem 0rem;
+}
+
+.add-leave-form-div .form-control {
+	width: 10rem;
+}
+
+.form-btn-div {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 1em 0 0 1rem;
+}
+
+.dashboards {
+	width: 13rem;
+	margin-top: 50px;
+	padding: 1rem;
+}
+
+.sidebar div {
+	margin: 1rem 0;
+}
+
+.employee-card {
+	margin: 1rem;
+	text-align: center;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card {
+	border: none;
+}
+
+.leaves-content {
+	text-align: left;
+}

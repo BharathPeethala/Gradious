@@ -1,0 +1,11 @@
+# Server configurations
+server:
+  host: "localhost"
+  port: 8000
+
+# Database configs
+database:
+  user: "root"
+  pass: "2019"
+  host: "localhost"
+  port: 3306

@@ -1,0 +1,64 @@
+body {
+	color: #b9bc36;
+}
+table {
+	background-color: #222536;
+    border-collapse: collapse;
+    
+}
+
+.labels{
+    padding-left:20px;
+}
+
+#month{
+width: 90px;
+}
+
+thead,
+tfoot {
+    margin: 0;
+    border: 0;
+	background-color: #de8704;
+    height: 50px;
+    width: 100%;
+}
+
+thead{
+    height: 40px;
+}
+
+.labels{
+    text-align: right;
+}
+tbody td{
+    padding: 10px;
+}
+
+tfoot td{
+    text-align: right;
+}
+
+button{
+    padding: 10px;
+    color:white;
+    width: 90px;
+}
+
+button[type='submit']{
+    background-color: #62af5e;
+    border: none;
+}
+
+.sign-up{
+    padding-left: 10px;
+}
+button[type='reset']{
+    background-color:#D9544F;
+    border: none;
+    margin-right: 7px;
+}
+
+input[type='text']{
+    margin-right: 50px;
+}

@@ -1,0 +1,6 @@
+#days-container{
+    display: flex;
+}
+.day{
+    padding:10px;
+}

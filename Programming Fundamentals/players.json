@@ -1,0 +1,9 @@
+{
+	"players": [
+		{ "name": "Kohil", "age": 20 },
+		{ "name": "Dhoni", "age": 22 },
+		{ "name": "Rohit", "age": 23 },
+		{ "name": "Pandy", "age": 19 },
+		{ "name": "Jadu", "age": 18 }
+	]
+}

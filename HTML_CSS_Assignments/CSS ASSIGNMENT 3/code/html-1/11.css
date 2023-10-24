@@ -1,0 +1,19 @@
+
+
+.text-right{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.text-justify{
+    text-align: justify;
+    margin-top: 20px;
+}
+.text-left{
+    margin-top:20px
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 20px;
+}

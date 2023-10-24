@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Timer</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/timer-svgrepo-com (1).svg" class="timer-logo" />
+            <p class="brand">StopWatch</p>
+        </div>
+        <div class="links">
+            <p><a>Home</a></p>
+            <p><a>Timer</a></p>
+            <p><a>Clock</a></p>
+            <p><a>Calendar</a></p>
+            <p><a href="#instructions">Instructions</a></p>
+        </div>
+    </nav>
+
+    <div class="timer">
+        <div class="box">
+            <p id="days" class="time">000</p>
+            <p class="subtext">Days</p>
+        </div>
+        <div class="box">
+            <p id="hours" class="time">00</p>
+            <p class="subtext">Hours</p>
+        </div>
+        <div class="box">
+            <p id="minutes" class="time">00</p>
+            <p class="subtext">Minutes</p>
+        </div>
+        <div class="box">
+            <p id="seconds" class="time">00</p>
+            <p class="subtext">Seconds</p>
+        </div>
+
+    </div>
+    <div class="input-container">
+        <input type="number" class="inputs" id="input-day" placeholder="Days">
+        <input type="number" class="inputs" id='input-hours' placeholder="Hours">
+        <input type="number" class="inputs" id='input-minutes' placeholder="Minutes">
+        <input type="number" class="inputs" id='input-secs' placeholder="Seconds">
+    </div>
+    <div class="btn-container">
+        <button id='set' onclick='set()' class="btn btn-set">Set timer</button>
+        <button id='start' onclick='startResume()' class="btn btn-start">Start / Resume</button>
+        <button id='pause' onclick='pause()'' class="btn btn-pause">Pause</button>
+        <button id=' reset' onclick='reset()' class="btn btn-reset">Reset</button>
+    </div>
+    <div id="instructions">
+        <h1>Instructions</h1>
+        <ol>
+            <li>Enter the  values in the inputs</li>
+            <li>Press the Set Timer Button to set the timer</li>
+            <li>Press the Start/Resume Button to start or resume the timer</li>
+            <li>Press the Pause Button to resume the timer</li>
+            <li>Press the Reset Button to reset the timer</li>
+        </ol>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>

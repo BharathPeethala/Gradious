@@ -1,0 +1,27 @@
+body
+{
+    font-family: cursive;
+    font-size: 15px;
+}
+table{
+    box-sizing: border-box;
+}
+li label{
+    text-transform: uppercase;
+}
+
+legend{
+    margin:0 auto;
+}
+
+fieldset{
+    border: 3px double black;
+    background-color:#00ff66;
+}
+
+.container{
+
+    width: fit-content;
+    background-color: #ccff99;
+    padding:5px;
+}

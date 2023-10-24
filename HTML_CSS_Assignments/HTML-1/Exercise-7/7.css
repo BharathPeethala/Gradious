@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(190, 157, 221);
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}

@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background-color: #eeeeee;
+}
+
+.container {
+	padding: 3rem;
+}
+
+.btn{
+    padding:1rem;
+    margin-right:1rem;
+    background-color: #347ab6;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.counter-container{
+    width: fit-content;
+}
+.counter{
+    margin: 1rem 0;
+    font-size: 2rem;
+    text-align: center;
+}

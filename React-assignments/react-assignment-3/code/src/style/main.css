@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	background-color: #f1f1f3;
+}
+
+.App {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Card {
+	margin: 3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	/* border: 2px solid black; */
+	width: 20rem;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-radius: 30px;
+}
+
+.userImage {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+}
+.bi-star-fill {
+	color: #e6e2e8;
+	font-size: larger;
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 2px;
+}
+
+.Card-Head {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: white;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	width: 100%;
+	height: 100%;
+	padding: 1rem;
+}
+
+.price {
+	color: #000;
+}
+
+.designation {
+	font-size: large;
+	margin-top: 1rem;
+	font-weight: 600;
+}
+
+.Card-Body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #fbfbfb;
+	/* padding: 2rem 2rem 1rem 2rem;
+	 */
+	padding: 1.3rem;
+	height: 100%;
+	width: 100%;
+}
+.price {
+	color: #959398;
+	margin-top: 5px;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.location {
+	font-size: 0.8rem;
+}
+.Card-Foot {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	background-color: #fbfbfb;
+	padding: 0 4rem 0rem 4rem;
+	width: 100%;
+	height: 100%;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.description {
+	margin: 10px 0;
+	color: #95969a;
+	font-size: 0.8rem;
+}
+
+.userName {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-top: 2rem;
+}
+
+.btn {
+	margin: 0.3rem 0;
+}
+
+.btn-view {
+	background-color: white;
+	color: #3087b2;
+	border: 2px solid #3087b2;
+	font-size: 1rem;
+	font-weight: 600;
+	padding: 0.7rem;
+	border-radius: 1rem;
+}
+
+.btn-make {
+	background-color: #0086e3;
+	color: white;
+	font-size: 1rem;
+	border: none;
+	font-weight: 600;
+	padding: 0.7rem;
+	border-radius: 1rem;
+}
+
+.status-cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #95969a;
+	padding: 1rem 0;
+}
+
+.status-text{
+	font-size: 0.8rem;
+}
+
+.star-logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.bi-star-fill {
+	background-color: white;
+	position: absolute;
+	top: 75px;
+	width: 40px;
+}
+
+.dot {
+	width: 8px;
+    height:8px;
+    background-color: #84c36a;
+    display:inline-block;
+    margin-right: 5px;
+    border-radius: 50%;
+}
